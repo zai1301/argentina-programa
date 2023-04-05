@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- link a una pag de estilo -->
+    
+   <link rel="stylesheet" href="../css/index.css">
+    
+   <!-- link tipografia estilo que traje de la web -->
+   <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2? family=Delicious+Handrawn&display=swap" rel="stylesheet">
+   
+   
+   <!-- Estilos en cada pagina -->
+    <style>
+        header{background: wheat;
+        color: blue;}
+        li{
+         list-style-type: none;
+        }
+    </style>
+   <title>clase01 - Html</title>
+</head>
+<body>
+    <!-- estructuras semanticas -->
+    <!-- cabecera de la pagina -->
+    <header>
+        <h3>soy el header de la pagina</h3>
+    </header>
+<!-- barra de navegacion -->
+    <nav>
+        <ul>
+            <li><a href="./vamos de nuevo.html">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="../pages/productos.html">Productos</a></li>
+            <li><a href="../pages/sucursales.html">Sucursales</a></li>
+            <li><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"></a>Argentina Programa 2023</li>
+        </ul>
+    </nav>
+<!-- contenido principal -->
+    <main>
+    <h1 style="color: red;">Clase 01 - HTML          </h1>
+    <h2>Hola</h2>
+    <h3>Hola</h3>
+    <h4>Hola</h4>
+    <h5>Hola</h5>
+    <h6>Hola</h6>
+<!-- etiqueta de una seccion  -->
+
+    <section>
+        <h2>Las plantas</h2>
+        <!-- etiquetas de parrafo -->
+        <p class="primerparrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="../pages/productos.html#Formulario">Vamos al Formulario del sito</a> Accusamus, cupiditate? A sapiente ipsam laudantium sunt dolorem consequatur hic! Nihil, harum aut! Accusamus nemo molestias distinctio architecto labore, veritatis voluptatibus praesentium.
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur cupiditate, repudiandae voluptatibus unde tenetur dolore illo vel! In ut, accusantium aperiam obcaecati earum soluta totam reiciendis odit vitae fugiat sunt.
+        </p>
+        <p class="tercerparrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="../pages/productos.html#Formulario">Vamos al Formulario del sito</a> Accusamus, cupiditate? A sapiente ipsam laudantium sunt dolorem consequatur hic! Nihil, harum aut! Accusamus nemo molestias distinctio architecto labore, veritatis voluptatibus praesentium.
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur cupiditate, repudiandae voluptatibus unde tenetur dolore illo vel! In ut, accusantium aperiam obcaecati earum soluta totam reiciendis odit vitae fugiat sunt.
+
+        </p>
+        <h3>listas de plantas</h3>
+        <!-- listas desordenadas-->
+
+        <ul><!-- elementos padres -->
+            <li>Planta uno</li><!-- item list - elemento hijo -->
+            <li>Planta dos</li>
+            <li>Planta tres</li>
+            <li>Planta cuatro</li>
+            <li>Planta cinco</li>
+       </ul>
+
+        <img src="https://www.google.com.ar/imgres?imgurl=http%3A%2F%2Fc.files.bbci.co.uk%2F121DB%2Fproduction%2F_109730247_gettyimages-1094263056-1.jpg&tbnid=PU2sSRqw4KFqFM&vet=12ahUKEwiLtd3-n_P9AhVTsJUCHTmrDX4QMygEegUIARDnAQ..i&imgrefurl=https%3A%2F%2Fwww.bbc.com%2Fmundo%2Fnoticias-50460981&docid=PAoT0M7YIxrDGM&w=976&h=549&q=plantas&hl=es-419&ved=2ahUKEwiLtd3-n_P9AhVTsJUCHTmrDX4QMygEegUIARDnAQ"><!-- archivo externo -->
+       
+    </section>
+
+    <section>
+
+        <h2>Los planetas</h2>
+        <p id="unicoparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum totam ad vel maiores architecto sapiente quisquam at autem exercitationem, praesentium beatae hic dicta magnam aperiam expedita delectus aut dolor corrupti!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur veniam, molestias provident illo tempora neque cum fugit nesciunt. Aperiam error reprehenderit libero consequuntur labore. Labore dolores commodi sapiente iure mollitia?</p>
+        <!-- listas ordenadas -->
+        <ol>
+            <li>Planeta uno</li>
+            <li>Planeta dos</li>
+            <li>Planeta tres</li>
+            <li>Planeta cuatro</li>
+            <li>Planeta cinco</li>
+        </ol>
+        <div class="centrarimagen">
+         <img src="../assec/imagenes/descargar (1).jfif"alt=""><!--archivo interno  -->
+         
+        </div>
+        
+    </section>
+    </main>
+<!-- pie de pagina -->
+    <footer>
+        <h3>soy el pie de la web</h3>
+        
+    <address>
+        <p>
+            <a href="tel:+">tel:12345678</a>
+        
+        </p>
+        <p>
+           <a href="https://www.google.com/maps/place/Av.+Gral.+San+Mart%C3%ADn+209,+B1704AAC+La+Matanza,+Provincia+de+Buenos+Aires/@-34.644114,-58.5636864,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcc7e6a047c63d:0xbbca2a95961f91e!8m2!3d-34.644114!4d-58.5614924!16s%2Fg%2F11c21gs2hq?hl=es" target="_blank" rel="noopener noreferrer"></a>
+        </p>
+        calle San Martin 209
+        <p>
+            <a href="mailto:">zairasandoval@gmail.com</a>
+        </p>
+
+    </address>
+    </footer>
+  
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+/*comentario enn css*/
+/*1. seleccionamos un selector: elemento al que doy estilo */
+/*2. propiedad*/
+/*3. valor que le asigno a la propiedad*/
+
+/* sintixis de css */
+body{
+    background:  rgb(206, 206, 239);
+}
+h1{/*selector global*/
+    color: white;
+}
+
+p{/*selector global*/
+color: green;
+border-top:solid 5px rgb(0, 0, 0);
+border-radius: solid 10px red;
+border-bottom: solid 5px blue;
+border-left: solid 80px;
+
+
+font-family: 'Courier New', Courier, monospace;
+
+
+
+
+}
+
+/*selector de clases*/
+.primerparrafo{
+    color: blue;
+}
+.tecerparrafo{
+    color: red;
+}
+/*selector de id*/
+#unicoparrafo{
+    color: yellow;
+}
+
+

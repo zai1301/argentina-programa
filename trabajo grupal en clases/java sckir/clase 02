@@ -1,0 +1,23 @@
+// variables
+
+let nombre; //declaracion de una variable
+
+nombre = "pepe"; //asignacion de una variable con el simbolo =
+
+console. log(nombre);
+
+let apellido = "perez"
+
+console. log(apellido)
+
+var
+
+
+
+
+
+
+
+
+
+

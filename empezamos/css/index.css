@@ -1,0 +1,67 @@
+/* comentarios en CSS */
+/* 1. Seleccionamos un selector: elemento al que doy estilo */
+/* 2. Propiedades */
+/* 3. Valor que le asigno a la propiedad */
+
+/* reseteo de estilos */
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/* sintaxis de css */
+body{ /* selector global */
+    background: rgb(211, 211, 245);
+}
+h1{ /* selector global */
+    color: rgb(182, 202, 51);
+}
+p{
+    color: green;
+}
+
+/* selectores de clases */
+
+.primerparrafo{
+    color: blue;
+    border-top: solid 5px black;
+    border-right: solid 10px red;
+    border-bottom:dashed 5px blue;
+    border-left: solid 10px purple;
+    margin-top: 80px;
+    margin-right:50px;
+    margin-bottom:60px;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: 'Delicious Handrawn', cursiva;
+    font-size: 25px;
+    text-align: center;
+    /* text-align: right*/
+    /* text-align: jutify */
+    font-weight: bold;
+    font-weight: normal;
+    font-weight:italic ;
+   
+}
+
+.tercerparrafo{
+    color: red;
+}
+#unicoparrafo{
+    color: #FCDB03;
+}
+.centrarimagen{
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 500px;
+}
+
+
+
